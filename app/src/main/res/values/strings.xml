@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">CodeLive</string>
+    <string name="version">version 0.0.1 beta</string>
+    <string name="enter_server_address">enter server address</string>
+    <string name="join">join</string>
 </resources>
