@@ -28,15 +28,16 @@
                 android:layout_gravity="center_vertical" />
 
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:id="@+id/image_main_connection_state"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:layout_gravity="center_vertical"
                 android:src="@drawable/main_cloud_connect"
                 android:tint="@color/text"
                 android:layout_marginStart="10dp" />
 
             <Space
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
 
@@ -62,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="35dp"
         app:fabSize="normal"
-        android:layout_gravity="right|bottom"
+        android:layout_gravity="end|bottom"
         android:tint="@color/text"
         android:src="@drawable/main_refresh" />
 
@@ -70,8 +71,8 @@
         android:id="@+id/fab_main_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="right|bottom"
-        android:layout_marginRight="42dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="42dp"
         android:layout_marginBottom="110dp"
         app:fabSize="mini"
         android:tint="@color/text"
